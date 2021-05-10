@@ -1,0 +1,30 @@
+.form_content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    label:last-of-type {
+        margin-top: 15px;
+    }
+
+    input {
+        padding: 5px;
+    }
+
+    textarea {
+        padding: 5px;
+    }
+}
+
+.publish-button {
+    padding: 6px 14px;
+    background-color: $highlightColour;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hoverColour;
+    }
+}

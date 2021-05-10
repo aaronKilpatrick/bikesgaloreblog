@@ -1,0 +1,64 @@
+$headingFont: 'Rubik', sans-serif;
+$bodyFont: 'Libre Franklin', sans-serif;
+$highlightColour: rgb(0, 180, 0);
+$hoverColour: rgb(0, 145, 0);
+$textColour: rgb(56, 56, 56);
+
+@import '__header.scss';
+@import '__footer.scss';
+@import '__compose.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $bodyFont;
+    color: $textColour;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper {
+    width: 1024px;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.main_wrapper {
+    padding: 2.5em 0;
+
+    h1, h2 {
+        padding: 20px 0;
+    }
+
+    p {
+        padding-bottom: 20px;
+
+        a {
+
+          &:link, 
+          &:visited {
+              text-decoration: none;
+              font-size: 0.8em;
+              color: rgb(32, 156, 178);
+          }
+          
+        }
+    }
+
+}
+
+
+

@@ -1,0 +1,128 @@
+.main-header {
+  font-family: "Rubik", sans-serif;
+  box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+}
+.main-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-weight: 600;
+}
+.site-title span {
+  color: #00b400;
+}
+
+.main-nav {
+  font-weight: 400;
+}
+.main-nav ul {
+  margin: 1em 0 0.5em;
+  text-align: center;
+}
+.main-nav li {
+  display: inline;
+  text-decoration: none;
+}
+.main-nav a {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  color: #383838;
+}
+.main-nav a:link {
+  text-decoration: none;
+}
+.main-nav a:visited {
+  text-decoration: none;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+.main-nav a:active {
+  text-decoration: none;
+}
+
+footer {
+  height: 50px;
+  background-color: #00b400;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.form_content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form_content label:last-of-type {
+  margin-top: 15px;
+}
+.form_content input {
+  padding: 5px;
+}
+.form_content textarea {
+  padding: 5px;
+}
+
+.publish-button {
+  padding: 6px 14px;
+  background-color: #00b400;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+.publish-button:hover {
+  background-color: #009100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  color: #383838;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 1024px;
+  max-width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.main_wrapper {
+  padding: 2.5em 0;
+}
+.main_wrapper h1, .main_wrapper h2 {
+  padding: 20px 0;
+}
+.main_wrapper p {
+  padding-bottom: 20px;
+}
+.main_wrapper p a:link, .main_wrapper p a:visited {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #209cb2;
+}
+
+/*# sourceMappingURL=styles.css.map */

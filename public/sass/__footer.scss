@@ -1,0 +1,10 @@
+footer {
+    height: 50px;
+    background-color: $highlightColour;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 0.8em;
+}
