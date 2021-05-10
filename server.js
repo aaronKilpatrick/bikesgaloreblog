@@ -2,6 +2,8 @@ const express = require ('express');
 const lodash = require('lodash');
 const ejs = require('ejs');
 
+const date = require(__dirname + '/date.js');
+
 const app = express();
 
 const homeStartingContent = "Welcome to bikes galore. We are proud to say that we have the largest bike orientated user base in the world! We are really kicking goals for this one. We all know we are and you should too";
@@ -41,7 +43,8 @@ app.post('/compose', (req, res) => {
     const reqContent = {
         postHeading: req.body.postTitle,
         postContent: req.body.postContent,
-        postEndpoint: lodash.kebabCase(req.body.postTitle)
+        postEndpoint: lodash.kebabCase(req.body.postTitle),
+        postDate: date.getDate()
     };
 
     posts.push(reqContent);
