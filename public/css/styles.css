@@ -8,6 +8,21 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.main-header a {
+  color: #383838;
+}
+.main-header a:link {
+  text-decoration: none;
+}
+.main-header a:visited {
+  text-decoration: none;
+}
+.main-header a:hover {
+  text-decoration: none;
+}
+.main-header a:active {
+  text-decoration: none;
+}
 
 .site-title {
   font-weight: 600;
@@ -123,6 +138,16 @@ body {
   text-decoration: none;
   font-size: 0.8em;
   color: #209cb2;
+}
+
+.fourohfour {
+  font-size: 6em;
+  padding: 0;
+}
+
+.post-date {
+  font-size: 60%;
+  margin-top: -15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
